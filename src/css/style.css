@@ -3438,7 +3438,8 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem; 
+}
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -8137,7 +8138,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: normal;
-  background: #fafafa;
+  background: #E3FDFD;
   color: gray; }
 
 a {
@@ -8162,7 +8163,11 @@ h1, h2, h3, h4, h5,
   background: #ff0000 !important; }
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 2em 0;
+  background-color: #E3FDFD;
+  font-style: italic;
+ }
+/* Change padding of logo */
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -8292,11 +8297,13 @@ h1, h2, h3, h4, h5,
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 30px; }
-  .navbar-brand span {
+  /* Navbar bottom color */
+  .navbar-brand span 
+  {
     display: block;
     font-size: 12px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.3); }
+    color: #71C9CE; }
   .navbar-brand:hover, .navbar-brand:focus {
     color: #000; }
 
