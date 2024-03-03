@@ -4,8 +4,9 @@
   "description": "project on blockchain",
   "main": "index.js",
   "scripts": {
-    "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite", 
+    "build": "vite build", 
+    "preview": "vite preview" 
   },
   "devDependencies": {
     "html5-qrcode": "^2.2.0",
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.15",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "vite": "^5.1.4"
   }
 }
