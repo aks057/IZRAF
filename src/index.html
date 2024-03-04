@@ -12,6 +12,7 @@
 	<body>
 <div class="ftco-footer">
 	<section class="ftco-section">
+		
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 			<div class="container-fluid" id="nav-cont">
 			
@@ -29,14 +30,66 @@
 			</div>
 		  </nav>
 		 <div class="container-fluid" id="project-name">
-			<p>IZRAF</p>
+			<p class="izraf">IZRAF</p>
+			<input
+			id="input-original-value"
+			type="text"/>
+		  <input id="input-hidden-value" type="text"/>
+		  <p class="izraf-tag"></p>
 		</div>
 	</section>
+	 <!-- Carousal -->
+	 <div class="hero-section">
+	 <div id="carouselExampleControls" class="carousel slide pro" data-ride="carousel-slide">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img class="d-block w-100 " src="./logos/news-2097363_1280.jpg" alt="First slide" style="height: auto;">
+		  </div>
+		  <div class="carousel-item">
+			<img class="d-block w-100 " src="./logos/traffic-signs-464653_1280.jpg" alt="Second slide" style="height: auto;">
+		  </div>
+		  <div class="carousel-item">
+			<img class="d-block w-100 " src="./logos/fake-word-yellow-tiles.jpg" alt="Third slide" style="height:auto;">
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </div>
+	  <!-- <div class="grow-2">
+		<div id="carouselExampleControls" class="carousel slide pro" data-ride="carousel-slide">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="d-block w-100" src="./logos/4154.jpg" alt="First slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="./logos/fake-word-yellow-tiles.jpg" alt="Second slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="./logos/pexels-markus-winkler-19835552.jpg" alt="Third slide">
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+	  </div> -->
+	  </div>
 	<div class="filler"></div>
 	<div class="footer-wrup container-fluid px-md-2 text-white">
 		<div class="row justify-content-between">
 			<div class="col-md-12 order-md-last">
-
+				
 			</div>
 			<div class="col-md-4 d-flex">
 				<div class="social-media">
@@ -89,16 +142,15 @@
 			<h6 class="text-uppercase fw-bold mb-4">
 			  <i class="fas fa-gem me-3"></i>IZRAF
 			</h6>
-			<p>
-			 
-Iazraf is an innovative counterfeit detection system utilizing machine learning and blockchain technology to authenticate products swiftly.
+			<p> 
+	Izraf is an innovative counterfeit detection system utilizing machine learning and blockchain technology to authenticate products swiftly.
 			</p>
 		  </div>
 		  <!-- Grid column -->
   
 		  <!-- Grid column -->
-		  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-			<!-- Links -->
+		  <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+			
 			<h6 class="text-uppercase fw-bold mb-4">
 			  Products
 			</h6>
@@ -114,7 +166,7 @@ Iazraf is an innovative counterfeit detection system utilizing machine learning 
 			<p>
 			  <a href="#!" class="text-reset">Laravel</a>
 			</p>
-		  </div>
+		  </div> -->
 		  <!-- Grid column -->
   
 		  <!-- Grid column -->
@@ -124,16 +176,16 @@ Iazraf is an innovative counterfeit detection system utilizing machine learning 
 			  Useful links
 			</h6>
 			<p>
-			  <a href="#!" class="text-reset">Pricing</a>
+			  <a href="index.html" class="text-reset">Home</a>
 			</p>
 			<p>
-			  <a href="#!" class="text-reset">Settings</a>
+			  <a href="manufacturer.html" class="text-reset">Manufacturer</a>
 			</p>
 			<p>
-			  <a href="#!" class="text-reset">Orders</a>
+			  <a href="seller.html" class="text-reset">Seller</a>
 			</p>
 			<p>
-			  <a href="#!" class="text-reset">Help</a>
+			  <a href="consumer.html" class="text-reset">Consumer</a>
 			</p>
 		  </div>
 		  <!-- Grid column -->
@@ -169,6 +221,7 @@ Iazraf is an innovative counterfeit detection system utilizing machine learning 
 	<script src="js/main.js"></script>
 	<script src="js/web3.min.js"></script>
 	<script src="js/truffle-contract.js"></script>
+	<script src="js/textScramble.js"></script>
  
 	</body>
 </html>

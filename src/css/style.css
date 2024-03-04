@@ -6,6 +6,8 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atomic+Age&family=Bakbak+One&family=Teko:wght@300..700&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -82,6 +84,7 @@ body {
   text-align: left;
   background-color: #fff;
   min-height: 100vh;
+  min-width: fit-content;
 }
 
 [tabindex="-1"]:focus {
@@ -90,6 +93,7 @@ body {
 .ftco-footer {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 hr {
@@ -11163,8 +11167,12 @@ nav .navbar {
   top: 0;
 }
 nav #ftco-navbar {
+  /* font-family: "Press Start 2P", system-ui !important;
+  font-weight: 400;
+  font-style: normal; */
 }
-div #nav-cont {
+
+div#nav-cont {
   font-family: "Press Start 2P", system-ui !important;
   font-weight: 400;
   font-style: normal;
@@ -11177,9 +11185,47 @@ div #project-name {
   font-family: "Bungee Shade", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 120px;
+  /* font-size: 120px; */
+  display: flex;
+  flex-direction: column;
 
   /* color: yellow; */
   -webkit-text-stroke: 3px black;
   /* color: yellow; */
+}
+
+.izraf {
+  font-size: 120px;
+}
+#input-original-value {
+  display: none;
+}
+#input-hidden-value {
+  display: none;
+}
+.izraf-tag {
+  font-size: 15px;
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+/*carousal*/
+
+.hero-section {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  /* justify-content: space-around; */
+}
+
+/* .hero-section {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+} */
+.carousel-inner {
+  border-radius: 15px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
 }
